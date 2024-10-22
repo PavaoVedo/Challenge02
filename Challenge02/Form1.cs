@@ -63,13 +63,13 @@ namespace Challenge02
                 return;
             }
 
-            // Print the column headers
+            
             lbResult.Items.Add("ID\tText Value");
 
-            // Iterate over the results and print each row
+            
             foreach (var row in results)
             {
-                // Print each row of the result using properties from TableTest
+                
                 string rowText = $"{row.id}\t{row.text_value}";
                 lbResult.Items.Add(rowText);
             }
