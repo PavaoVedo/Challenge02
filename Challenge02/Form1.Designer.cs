@@ -63,7 +63,7 @@
             // lbConnect
             // 
             lbConnect.AutoSize = true;
-            lbConnect.Location = new Point(52, 91);
+            lbConnect.Location = new Point(35, 94);
             lbConnect.Name = "lbConnect";
             lbConnect.Size = new Size(113, 20);
             lbConnect.TabIndex = 3;

@@ -14,10 +14,10 @@ namespace Challenge02.DAL
         private static string _database = "postgres";
 
         private static string CONNECTION_STRING = @"
-            Host=plaintively-artistic-bluebill.data-1.use1.tembo.io;
+            Host=HOST_NAME;
             Port=5432;
             Username=postgres;
-            Password=llZOIzbOpFC9CeIJ;
+            Password=PASSWORD;
             Database=postgres;
             ";
 
